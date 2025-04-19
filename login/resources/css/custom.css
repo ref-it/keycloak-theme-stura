@@ -1,0 +1,25 @@
+.login-pf body {
+    background: url('../img/background.png') no-repeat center center fixed;
+}
+
+.pf-v5-c-login__header {
+    background-image: url(../img/logo.svg);
+    background-size: contain;
+    height: 100px;
+    width: 100%;
+    margin:
+    0 auto 2rem auto;
+}
+
+.pf-v5-c-login__header .pf-v5-c-brand {
+    display: none;
+}
+
+.pf-v5-c-login__main {
+    border-radius: 3px;
+}
+
+.pf-v5-c-login__main-header {
+    grid-template-columns: 1fr auto;
+    padding-bottom: 2.5rem;
+}
