@@ -1,6 +1,4 @@
 {
-  description = "Keycloak Theme for StuRa Ilmenau";
-
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
     flake-utils.url = "github:numtide/flake-utils";
