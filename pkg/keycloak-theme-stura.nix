@@ -5,7 +5,7 @@ pkgs.stdenv.mkDerivation {
   src = pkgs.lib.cleanSource ../.;
 
   installPhase = ''
-    mkdir $out
+    mkdir -p $out
     cp -r login $out/
   '';
 }
