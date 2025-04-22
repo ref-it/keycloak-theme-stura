@@ -5,7 +5,7 @@ in
 {
   # this key should be the same as the simpleFlake name attribute.
   keycloak-theme-stura = {
-    keycloak-theme-stura = import ./pkgs/keycloak-theme-stura.nix {
+    keycloak-theme-stura = import ./pkg/keycloak-theme-stura.nix {
       inherit pkgs;
     };
   };
