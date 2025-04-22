@@ -20,5 +20,4 @@
       overlay = ./overlay.nix;
       preOverlays = [ devshell.overlays.default ];
     };
-  };
 }
