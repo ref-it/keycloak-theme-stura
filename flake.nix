@@ -18,6 +18,5 @@
       inherit self nixpkgs;
       name = "keycloak-theme-stura";
       overlay = ./overlay.nix;
-      preOverlays = [ devshell.overlays.default ];
     };
 }
